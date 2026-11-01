@@ -1,0 +1,103 @@
+(footprint "SOLDER BRDIGE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.6764 0)
+		(layer "F.SilkS")
+		(uuid "fae999ae-b8c7-4319-a523-1f6e6bf7679c")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "Solder Bridge"
+		(at 0 -3.4544 0)
+		(layer "F.SilkS")
+		(uuid "fdf5a975-7777-4f2f-bde9-5d8762a5f40b")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc2ae106-2b19-4e98-9ea7-ff070ca77c79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16a43a40-cc39-478f-a062-243eae8397d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.793 0.65)
+		(end 1.793 -0.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5aac324a-c769-42e0-b260-c431e4a32332")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "d33b883d-e879-408e-b5a4-7d1d7282826c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.143 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "eb1f7e92-55f4-4459-a603-32b17c8f6b17")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "aedcfc3d-6183-4478-b53e-a34a4a0dcc93")
+	)
+	(pad "3" smd rect
+		(at 1.143 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "a232f8a5-8251-483a-b0b5-c621d86b0c30")
+	)
+	(embedded_fonts no)
+)
